@@ -1,0 +1,807 @@
+[
+  {
+    "id": 1,
+    "question": "What is the default Python version mentioned in the lecture?",
+    "type": "multiple_choice",
+    "options": ["3.10", "3.11", "3.12", "2.7"],
+    "answer": "3.12",
+    "explanation": "Slide 12 explicitly states Python 3.12 as the version used.",
+    "slide_reference": "lecture_01.pdf#12"
+  },
+  {
+    "id": 2,
+    "question": "Python is dynamically typed.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Slide 24 describes how Python infers types at runtime.",
+    "slide_reference": "lecture_01.pdf#24"
+  },
+  {
+    "id": 3,
+    "question": "Which function is used to print output in Python?",
+    "type": "multiple_choice",
+    "options": ["echo", "write", "print", "output"],
+    "answer": "print",
+    "explanation": "Slide 26 explains that 'print()' is used to output data.",
+    "slide_reference": "lecture_01.pdf#26"
+  },
+  {
+    "id": 4,
+    "question": "What extension do Python files typically use?",
+    "type": "multiple_choice",
+    "options": [".txt", ".py", ".python", ".exe"],
+    "answer": ".py",
+    "explanation": "Python files use the .py extension.",
+    "slide_reference": "lecture_01.pdf#17"
+  },
+  {
+    "id": 6,
+    "question": "Strings in Python are mutable.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Slide 8 states that strings are immutable.",
+    "slide_reference": "lecture_02.pdf#8"
+  },
+  {
+    "id": 7,
+    "question": "What does range(0,15,5) produce?",
+    "type": "multiple_choice",
+    "options": ["[0, 5, 10]", "[0, 5, 10, 15]", "[5, 10, 15]", "[0, 10, 15]"],
+    "answer": "[0, 5, 10]",
+    "explanation": "range(0,15,5) gives [0, 5, 10] because 15 is excluded.",
+    "slide_reference": "lecture_03.pdf#15"
+  },
+  {
+    "id": 8,
+    "question": "Tuples are mutable.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Slide 18 says tuples are immutable.",
+    "slide_reference": "lecture_03.pdf#18"
+  },
+  {
+    "id": 9,
+    "question": "Which keyword is used to define a class in Python?",
+    "type": "multiple_choice",
+    "options": ["object", "def", "class", "type"],
+    "answer": "class",
+    "explanation": "The keyword 'class' is used to define a new class.",
+    "slide_reference": "lecture_04.pdf#9"
+  },
+  {
+    "id": 10,
+    "question": "Which method is automatically called when a new object is created?",
+    "type": "multiple_choice",
+    "options": ["__create__", "__start__", "__init__", "__new__"],
+    "answer": "__init__",
+    "explanation": "Slide 13 explains that __init__ sets the object\u2019s initial state.",
+    "slide_reference": "lecture_04.pdf#13"
+  },
+  {
+    "id": 11,
+    "question": "Which data structure allows only unique elements?",
+    "type": "multiple_choice",
+    "options": ["List", "Dictionary", "Set", "Tuple"],
+    "answer": "Set",
+    "explanation": "Sets are collections of unordered, unique elements.",
+    "slide_reference": "lecture_05.pdf#3"
+  },
+  {
+    "id": 12,
+    "question": "Dictionaries in Python can have mutable keys.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Only immutable objects can be used as dictionary keys.",
+    "slide_reference": "lecture_05.pdf#10"
+  },
+  {
+    "id": 13,
+    "question": "What happens if an `assert` expression is false during debugging?",
+    "type": "multiple_choice",
+    "options": [
+      "The program continues execution",
+      "An AssertionError is raised",
+      "A warning is logged",
+      "The program terminates silently"
+    ],
+    "answer": "An AssertionError is raised",
+    "explanation": "Assertions raise an AssertionError if the condition is false and debugging is enabled.",
+    "slide_reference": "lecture_06-exceptions.pdf#5"
+  },
+  {
+    "id": 14,
+    "question": "True or False: The `finally` block always runs, regardless of whether an exception was raised or not.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The finally block always executes after try/except blocks.",
+    "slide_reference": "lecture_06-exceptions.pdf#19"
+  },
+  {
+    "id": 15,
+    "question": "Which module is used to encode and decode JSON in Python?",
+    "type": "multiple_choice",
+    "options": ["json", "pickle", "marshal", "yaml"],
+    "answer": "json",
+    "explanation": "Python's built-in `json` module is used for reading and writing JSON data.",
+    "slide_reference": "lecture_06-exceptions.pdf#34"
+  },
+  {
+    "id": 16,
+    "question": "True or False: Assertions should be used for regular error handling in production code.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Assertions are meant for debugging, not error handling.",
+    "slide_reference": "lecture_06-exceptions.pdf#7"
+  },
+  {
+    "id": 17,
+    "question": "Which of the following encoding formats is most space-efficient?",
+    "type": "multiple_choice",
+    "options": ["ASCII", "UTF-32", "UTF-8", "ISO-8859-2"],
+    "answer": "UTF-8",
+    "explanation": "UTF-8 is more space-efficient than UTF-32 and supports all international characters.",
+    "slide_reference": "lecture_06-exceptions.pdf#23"
+  },
+  {
+    "id": 18,
+    "question": "What symbol is used in regular expressions to match the start of a line?",
+    "type": "multiple_choice",
+    "options": ["$", "^", ".", "*"],
+    "answer": "^",
+    "explanation": "The caret (^) is used to match the start of a line in regex.",
+    "slide_reference": "lecture_07-re.pdf#23"
+  },
+  {
+    "id": 19,
+    "question": "True or False: `re.findall()` returns an iterator over all matches.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "`re.findall()` returns a list, not an iterator.",
+    "slide_reference": "lecture_07-re.pdf#30"
+  },
+  {
+    "id": 20,
+    "question": "Which function in the `re` module is used to compile a regular expression?",
+    "type": "multiple_choice",
+    "options": ["match()", "compile()", "search()", "findall()"],
+    "answer": "compile()",
+    "explanation": "`compile()` is used to prepare regex patterns for reuse.",
+    "slide_reference": "lecture_07-re.pdf#26"
+  },
+  {
+    "id": 21,
+    "question": "Which module is commonly used to handle command-line arguments in Python?",
+    "type": "multiple_choice",
+    "options": ["sys", "argparse", "os", "shlex"],
+    "answer": "argparse",
+    "explanation": "`argparse` is the standard module for parsing command-line options and arguments.",
+    "slide_reference": "lecture_08-os.pdf#10"
+  },
+  {
+    "id": 22,
+    "question": "True or False: Environment variables set using `os.environ` persist after the program ends.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Variables set with `os.environ` exist only for the duration of the program.",
+    "slide_reference": "lecture_08-os.pdf#16"
+  },
+  {
+    "id": 23,
+    "question": "Which module is required to read and write Excel files in Python?",
+    "type": "multiple_choice",
+    "options": ["csv", "xlsxwriter", "openpyxl", "pandas"],
+    "answer": "openpyxl",
+    "explanation": "`openpyxl` is used to interact with Excel `.xlsx` files in Python.",
+    "slide_reference": "lecture_08-os.pdf#28"
+  },
+  {
+    "id": 24,
+    "question": "Which HTTP method is typically used to retrieve data?",
+    "type": "multiple_choice",
+    "options": ["GET", "POST", "PUT", "DELETE"],
+    "answer": "GET",
+    "explanation": "GET is used to retrieve data from a server.",
+    "slide_reference": "lecture_09-internet.pdf#6"
+  },
+  {
+    "id": 25,
+    "question": "True or False: HTTP is a stateful protocol.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "HTTP is stateless, meaning each request is independent.",
+    "slide_reference": "lecture_09-internet.pdf#4"
+  },
+  {
+    "id": 26,
+    "question": "Which module is used in Python to make HTTP requests?",
+    "type": "multiple_choice",
+    "options": ["urllib", "http.client", "requests", "socket"],
+    "answer": "requests",
+    "explanation": "`requests` is a high-level module for HTTP operations.",
+    "slide_reference": "lecture_09-internet.pdf#9"
+  },
+  {
+    "id": 27,
+    "question": "True or False: You can parse HTML using the `json` module.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "HTML should be parsed using tools like BeautifulSoup, not `json`.",
+    "slide_reference": "lecture_09-internet.pdf#21"
+  },
+  {
+    "id": 28,
+    "question": "Which method reads a streamed HTTP response in chunks?",
+    "type": "multiple_choice",
+    "options": ["r.read()", "r.content", "r.iter_content()", "r.chunks()"],
+    "answer": "r.iter_content()",
+    "explanation": "`r.iter_content()` is used to read the streamed content chunk by chunk.",
+    "slide_reference": "lecture_09-internet.pdf#16"
+  },
+  {
+    "id": 29,
+    "question": "Which module is recommended in the slides for testing Python code?",
+    "type": "multiple_choice",
+    "options": ["unittest", "doctest", "pytest", "nose2"],
+    "answer": "pytest",
+    "explanation": "`pytest` is highlighted as simple and flexible for Python testing.",
+    "slide_reference": "lecture_10-testing.pdf#17"
+  },
+  {
+    "id": 30,
+    "question": "True or False: You must use `return` in your pytest tests.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Tests use `assert` statements; return values are not needed.",
+    "slide_reference": "lecture_10-testing.pdf#19"
+  },
+  {
+    "id": 31,
+    "question": "What feature allows running the same test with different inputs in pytest?",
+    "type": "multiple_choice",
+    "options": ["Fixtures", "Parametrize", "Mocking", "Inheritance"],
+    "answer": "Parametrize",
+    "explanation": "@pytest.mark.parametrize runs tests multiple times with various parameters.",
+    "slide_reference": "lecture_10-testing.pdf#24"
+  },
+  {
+    "id": 32,
+    "question": "What does the `Document('mydoc.docx')` call do in python-docx?",
+    "type": "multiple_choice",
+    "options": [
+      "Creates a new document",
+      "Opens an existing DOCX file",
+      "Deletes a document",
+      "Saves a document"
+    ],
+    "answer": "Opens an existing DOCX file",
+    "explanation": "The `Document('mydoc.docx')` call loads the specified DOCX file for reading or editing.",
+    "slide_reference": "lecture_11-doc-img.pdf#7"
+  },
+  {
+    "id": 33,
+    "question": "True or False: The `add_paragraph()` function is used to add a heading to a DOCX file.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "`add_paragraph()` adds regular paragraphs, while `add_heading()` is used for headings.",
+    "slide_reference": "lecture_11-doc-img.pdf#9"
+  },
+  {
+    "id": 34,
+    "question": "Which module is a prerequisite for manipulating DOCX files in Python?",
+    "type": "multiple_choice",
+    "options": ["docutils", "python-docx", "pillow", "matplotlib"],
+    "answer": "python-docx",
+    "explanation": "The python-docx module is required to create and manipulate DOCX documents.",
+    "slide_reference": "lecture_11-doc-img.pdf#4"
+  },
+  {
+    "id": 35,
+    "question": "What internal format does a DOCX file use?",
+    "type": "multiple_choice",
+    "options": ["JSON", "CSV", "XML", "Binary"],
+    "answer": "XML",
+    "explanation": "DOCX files use XML to store document structure and content.",
+    "slide_reference": "lecture_11-doc-img.pdf#5"
+  },
+  {
+    "id": 36,
+    "question": "Which module is used for manipulating images in Python?",
+    "type": "multiple_choice",
+    "options": ["OpenCV", "Pillow", "Tkinter", "Seaborn"],
+    "answer": "Pillow",
+    "explanation": "Pillow is a fork of the PIL library, used for image manipulation.",
+    "slide_reference": "lecture_11-doc-img.pdf#15"
+  },
+  {
+    "id": 37,
+    "question": "True or False: `Image.open()` and `Image.save()` are used to read and write image files in Pillow.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "`Image.open()` opens an image file and `Image.save()` writes it to disk.",
+    "slide_reference": "lecture_11-doc-img.pdf#18"
+  },
+  {
+    "id": 38,
+    "question": "Which of these is a correct way to draw a line on an image with Pillow?",
+    "type": "multiple_choice",
+    "options": [
+      "draw.line((x1, y1, x2, y2), color='red')",
+      "img.draw_line(x1, y1, x2, y2)",
+      "ImageDraw.line([start, end], fill='red')",
+      "pic.line([start,end], width=3, fill='red')"
+    ],
+    "answer": "pic.line([start,end], width=3, fill='red')",
+    "explanation": "The `ImageDraw.Draw` object provides a `.line()` method with start and end coordinates.",
+    "slide_reference": "lecture_11-doc-img.pdf#23"
+  },
+  {
+    "id": 39,
+    "question": "What does the `rotate(30, expand=True)` call do in Pillow?",
+    "type": "multiple_choice",
+    "options": [
+      "Rotates image and keeps same dimensions",
+      "Rotates image and expands canvas",
+      "Flips image vertically",
+      "Applies a blur effect"
+    ],
+    "answer": "Rotates image and expands canvas",
+    "explanation": "`expand=True` enlarges the canvas to fit the rotated image fully.",
+    "slide_reference": "lecture_11-doc-img.pdf#20"
+  },
+  {
+    "id": 40,
+    "question": "Which library is used to create plots in Python as shown in the lecture?",
+    "type": "multiple_choice",
+    "options": ["Pillow", "Tkinter", "matplotlib", "numpy"],
+    "answer": "matplotlib",
+    "explanation": "`matplotlib.pyplot` is used for creating charts and plots.",
+    "slide_reference": "lecture_11-doc-img.pdf#26"
+  },
+  {
+    "id": 41,
+    "question": "True or False: The `savefig()` function in matplotlib displays a plot on screen.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "`savefig()` saves the plot to a file; `show()` displays it.",
+    "slide_reference": "lecture_11-doc-img.pdf#29"
+  },
+  {
+    "id": 42,
+    "question": "What function is used to establish a connection to an SQLite database file?",
+    "type": "multiple_choice",
+    "options": [
+      "sqlite3.open()",
+      "sqlite3.connect()",
+      "sqlite3.create()",
+      "sqlite3.link()"
+    ],
+    "answer": "sqlite3.connect()",
+    "explanation": "`sqlite3.connect()` is used to connect to a database file or create one if it doesn't exist.",
+    "slide_reference": "lecture_12-sqlite.pdf#11"
+  },
+  {
+    "id": 43,
+    "question": "True or False: SQLite requires a separate server process to run.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "SQLite is serverless and requires no separate server process.",
+    "slide_reference": "lecture_12-sqlite.pdf#5"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is NOT a valid SQLite data type?",
+    "type": "multiple_choice",
+    "options": ["Integer", "Text", "Float", "Blob"],
+    "answer": "Float",
+    "explanation": "SQLite uses 'Real' instead of 'Float'.",
+    "slide_reference": "lecture_12-sqlite.pdf#10"
+  },
+  {
+    "id": 45,
+    "question": "How do you ensure a command modifying data is saved in SQLite?",
+    "type": "multiple_choice",
+    "options": [
+      "cursor.save()",
+      "conn.store()",
+      "conn.commit()",
+      "sqlite3.flush()"
+    ],
+    "answer": "conn.commit()",
+    "explanation": "You must call `conn.commit()` to finalize transactions.",
+    "slide_reference": "lecture_12-sqlite.pdf#14"
+  },
+  {
+    "id": 46,
+    "question": "True or False: Using `?` placeholders in queries helps prevent SQL injection.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Placeholders with `execute()` prevent SQL injection by safely passing values.",
+    "slide_reference": "lecture_12-sqlite.pdf#17"
+  },
+  {
+    "id": 47,
+    "question": "Which method fetches all remaining rows from a SELECT query?",
+    "type": "multiple_choice",
+    "options": ["fetchone()", "fetchall()", "fetchmany()", "selectall()"],
+    "answer": "fetchall()",
+    "explanation": "`fetchall()` retrieves all results from a query at once.",
+    "slide_reference": "lecture_12-sqlite.pdf#19"
+  },
+  {
+    "id": 48,
+    "question": "How do you define a primary key when creating a table in SQLite?",
+    "type": "multiple_choice",
+    "options": [
+      "id INTEGER, PRIMARY",
+      "PRIMARY KEY id",
+      "id INT PRIMARY KEY",
+      "INT id PRIMARY"
+    ],
+    "answer": "id INT PRIMARY KEY",
+    "explanation": "The correct syntax is `id INT PRIMARY KEY` within the CREATE TABLE statement.",
+    "slide_reference": "lecture_12-sqlite.pdf#14"
+  },
+  {
+    "id": 49,
+    "question": "True or False: `executemany()` allows you to insert multiple rows in one command.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "`executemany()` can insert multiple rows efficiently using one SQL command template.",
+    "slide_reference": "lecture_12-sqlite.pdf#18"
+  },
+  {
+    "id": 50,
+    "question": "Which Python statement ensures a database connection is automatically closed?",
+    "type": "multiple_choice",
+    "options": [
+      "`finally` block",
+      "`try` block",
+      "`with` statement",
+      "`end` statement"
+    ],
+    "answer": "`with` statement",
+    "explanation": "Using `with closing(...)` ensures connections and cursors are properly closed.",
+    "slide_reference": "lecture_12-sqlite.pdf#26"
+  },
+  {
+    "id": 51,
+    "question": "What is the purpose of `executescript()` in SQLite?",
+    "type": "multiple_choice",
+    "options": [
+      "To execute multiple SQL statements at once",
+      "To execute a Python script",
+      "To format a SQL query",
+      "To delay execution of a transaction"
+    ],
+    "answer": "To execute multiple SQL statements at once",
+    "explanation": "`executescript()` runs multiple SQL commands in one batch.",
+    "slide_reference": "lecture_12-sqlite.pdf#27"
+  },
+  {
+    "id": 52,
+    "question": "Which function starts the Tkinter event loop?",
+    "type": "multiple_choice",
+    "options": ["start()", "begin()", "mainloop()", "run()"],
+    "answer": "mainloop()",
+    "explanation": "The `mainloop()` function starts the Tkinter GUI event loop.",
+    "slide_reference": "lecture_13-gui.pdf#4"
+  },
+  {
+    "id": 53,
+    "question": "True or False: The `pack()` method is used to add widgets to the window.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "`pack()` adds widgets to the parent widget or window.",
+    "slide_reference": "lecture_13-gui.pdf#8"
+  },
+  {
+    "id": 54,
+    "question": "Which widget is used to accept a single line of text input in Tkinter?",
+    "type": "multiple_choice",
+    "options": ["Label", "Text", "Entry", "Box"],
+    "answer": "Entry",
+    "explanation": "The `Entry` widget allows the user to input a single line of text.",
+    "slide_reference": "lecture_13-gui.pdf#10"
+  },
+  {
+    "id": 55,
+    "question": "What does the `command` argument in a Button widget do?",
+    "type": "multiple_choice",
+    "options": [
+      "Changes the text color",
+      "Assigns a function to run when clicked",
+      "Sets the button size",
+      "Binds a keyboard shortcut"
+    ],
+    "answer": "Assigns a function to run when clicked",
+    "explanation": "`command` specifies the function to call when the button is clicked.",
+    "slide_reference": "lecture_13-gui.pdf#11"
+  },
+  {
+    "id": 56,
+    "question": "True or False: The `grid()` layout manager positions widgets in rows and columns.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "The `grid()` method organizes widgets into a table-like structure.",
+    "slide_reference": "lecture_13-gui.pdf#15"
+  },
+  {
+    "id": 57,
+    "question": "Which method creates a submenu in a Tkinter menu bar?",
+    "type": "multiple_choice",
+    "options": [
+      "add_command()",
+      "add_submenu()",
+      "add_cascade()",
+      "add_item()"
+    ],
+    "answer": "add_cascade()",
+    "explanation": "`add_cascade()` is used to add submenus in a menu bar.",
+    "slide_reference": "lecture_13-gui.pdf#18"
+  },
+  {
+    "id": 58,
+    "question": "What module must be imported to use message boxes in Tkinter?",
+    "type": "multiple_choice",
+    "options": ["tkdialog", "tk.messagebox", "tk.alert", "tk.popup"],
+    "answer": "tk.messagebox",
+    "explanation": "Message boxes are in the `tk.messagebox` module.",
+    "slide_reference": "lecture_13-gui.pdf#22"
+  },
+  {
+    "id": 59,
+    "question": "True or False: `askyesno()` returns 'yes' or 'no' as string values.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "`askyesno()` returns `True` or `False`, not string values.",
+    "slide_reference": "lecture_13-gui.pdf#22"
+  },
+  {
+    "id": 60,
+    "question": "Which widget allows drawing shapes and placing images in Tkinter?",
+    "type": "multiple_choice",
+    "options": ["Canvas", "Painter", "Picture", "Board"],
+    "answer": "Canvas",
+    "explanation": "The `Canvas` widget is used for drawing shapes and displaying images.",
+    "slide_reference": "lecture_13-gui.pdf#26"
+  },
+  {
+    "id": 61,
+    "question": "True or False: The `PhotoImage` class supports JPEG images by default.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "`PhotoImage` only supports GIF, PNG, and PGM/PPM by default; use PIL for JPEG.",
+    "slide_reference": "lecture_13-gui.pdf#29"
+  },
+  {
+    "id": 62,
+    "question": "Which Python module provides high-level support for threads?",
+    "type": "multiple_choice",
+    "options": ["multiprocessing", "asyncio", "threading", "concurrent"],
+    "answer": "threading",
+    "explanation": "The `threading` module provides classes and functions for working with threads.",
+    "slide_reference": "lecture_14-threads.pdf#8"
+  },
+  {
+    "id": 63,
+    "question": "True or False: Daemon threads automatically terminate when the main thread finishes.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Daemon threads end when the main program ends.",
+    "slide_reference": "lecture_14-threads.pdf#12"
+  },
+  {
+    "id": 64,
+    "question": "Which method waits for a thread to complete before continuing execution?",
+    "type": "multiple_choice",
+    "options": ["wait()", "pause()", "stop()", "join()"],
+    "answer": "join()",
+    "explanation": "`join()` blocks the calling thread until the specified thread terminates.",
+    "slide_reference": "lecture_14-threads.pdf#13"
+  },
+  {
+    "id": 65,
+    "question": "Which threading method returns a list of currently active threads?",
+    "type": "multiple_choice",
+    "options": ["current()", "list_threads()", "enumerate()", "active_list()"],
+    "answer": "enumerate()",
+    "explanation": "`enumerate()` returns all currently alive threads.",
+    "slide_reference": "lecture_14-threads.pdf#14"
+  },
+  {
+    "id": 66,
+    "question": "True or False: Processes created using the `multiprocessing` module share memory.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Each process has its own memory space; memory is not shared.",
+    "slide_reference": "lecture_14-threads.pdf#27"
+  },
+  {
+    "id": 67,
+    "question": "Which of the following is used for synchronization between processes?",
+    "type": "multiple_choice",
+    "options": ["Event", "Timer", "Barrier", "Delay"],
+    "answer": "Event",
+    "explanation": "`multiprocessing.Event()` allows processes to wait for or signal conditions.",
+    "slide_reference": "lecture_14-threads.pdf#29"
+  },
+  {
+    "id": 68,
+    "question": "Which class allows you to delay the start of a thread?",
+    "type": "multiple_choice",
+    "options": [
+      "DelayedThread",
+      "threading.Timer",
+      "PostponedThread",
+      "threading.Scheduler"
+    ],
+    "answer": "threading.Timer",
+    "explanation": "`Timer` runs a function after a delay, similar to `setTimeout` in JS.",
+    "slide_reference": "lecture_14-threads.pdf#16"
+  },
+  {
+    "id": 69,
+    "question": "True or False: ThreadPoolExecutor is part of the concurrent.futures module.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "`ThreadPoolExecutor` simplifies concurrent thread execution.",
+    "slide_reference": "lecture_14-threads.pdf#18"
+  },
+  {
+    "id": 70,
+    "question": "What is GIL in the context of Python threading?",
+    "type": "multiple_choice",
+    "options": [
+      "Global Index Loader",
+      "Global Interpreter Lock",
+      "Generic Instance Logger",
+      "Global Initialization Level"
+    ],
+    "answer": "Global Interpreter Lock",
+    "explanation": "GIL prevents multiple native threads from executing Python bytecodes simultaneously.",
+    "slide_reference": "lecture_14-threads.pdf#24"
+  },
+  {
+    "id": 71,
+    "question": "Which of the following is true about `asyncio`?",
+    "type": "multiple_choice",
+    "options": [
+      "It runs on multiple threads",
+      "It uses cooperative multitasking",
+      "It supports multiprocessing",
+      "It blocks on I/O operations"
+    ],
+    "answer": "It uses cooperative multitasking",
+    "explanation": "`asyncio` is a single-threaded event loop system using cooperative multitasking.",
+    "slide_reference": "lecture_14-threads.pdf#33"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following is a core principle of functional programming?",
+    "type": "multiple_choice",
+    "options": [
+      "Use of global variables",
+      "Changing program state",
+      "Declarative expressions",
+      "Object inheritance"
+    ],
+    "answer": "Declarative expressions",
+    "explanation": "Functional programming emphasizes expressions and immutability over state changes.",
+    "slide_reference": "lecture_15-fun.pdf#4"
+  },
+  {
+    "id": 73,
+    "question": "True or False: In Python, functions are first-class objects.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "Python treats functions like any other object\u2014they can be passed, returned, and assigned.",
+    "slide_reference": "lecture_15-fun.pdf#5"
+  },
+  {
+    "id": 74,
+    "question": "What is the purpose of the `yield` keyword in Python?",
+    "type": "multiple_choice",
+    "options": [
+      "Define constants",
+      "Declare a lambda",
+      "Return a generator value",
+      "Import libraries"
+    ],
+    "answer": "Return a generator value",
+    "explanation": "`yield` is used to return values from a generator function.",
+    "slide_reference": "lecture_15-fun.pdf#16"
+  },
+  {
+    "id": 75,
+    "question": "Which built-in function applies a function to each item in an iterable?",
+    "type": "multiple_choice",
+    "options": ["filter()", "reduce()", "map()", "apply()"],
+    "answer": "map()",
+    "explanation": "`map()` applies a function to each item in an iterable.",
+    "slide_reference": "lecture_15-fun.pdf#20"
+  },
+  {
+    "id": 76,
+    "question": "True or False: `filter()` creates a list based on a condition function.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "True",
+    "explanation": "`filter()` returns a filtered version of an iterable based on a condition.",
+    "slide_reference": "lecture_15-fun.pdf#21"
+  },
+  {
+    "id": 77,
+    "question": "Which module is required to use the `reduce()` function in Python 3?",
+    "type": "multiple_choice",
+    "options": ["collections", "functools", "functional", "tools"],
+    "answer": "functools",
+    "explanation": "`reduce()` was moved to the `functools` module in Python 3.",
+    "slide_reference": "lecture_15-fun.pdf#22"
+  },
+  {
+    "id": 78,
+    "question": "What does a list comprehension do?",
+    "type": "multiple_choice",
+    "options": [
+      "Sorts a list",
+      "Filters a dictionary",
+      "Builds a new list",
+      "Creates a new class"
+    ],
+    "answer": "Builds a new list",
+    "explanation": "List comprehensions provide a concise way to create new lists.",
+    "slide_reference": "lecture_15-fun.pdf#14"
+  },
+  {
+    "id": 79,
+    "question": "True or False: A lambda function in Python can contain multiple statements.",
+    "type": "true_false",
+    "options": ["True", "False"],
+    "answer": "False",
+    "explanation": "Lambda functions must consist of a single expression only.",
+    "slide_reference": "lecture_15-fun.pdf#8"
+  },
+  {
+    "id": 80,
+    "question": "What is the result of `functools.reduce(lambda x, y: x * y, [1, 2, 3, 4])`?",
+    "type": "multiple_choice",
+    "options": ["10", "24", "6", "0"],
+    "answer": "24",
+    "explanation": "The reduce function multiplies elements: 1*2*3*4 = 24.",
+    "slide_reference": "lecture_15-fun.pdf#22"
+  },
+  {
+    "id": 81,
+    "question": "Which keyword is used to create anonymous functions in Python?",
+    "type": "multiple_choice",
+    "options": ["func", "define", "lambda", "anon"],
+    "answer": "lambda",
+    "explanation": "`lambda` defines an anonymous (inline) function.",
+    "slide_reference": "lecture_15-fun.pdf#8"
+  }
+]

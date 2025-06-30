@@ -1,0 +1,1 @@
+[{"id": 22, "question": "True or False: Environment variables set using `os.environ` persist after the program ends.", "type": "true_false", "options": ["True", "False"], "answer": "False", "explanation": "Variables set with `os.environ` exist only for the duration of the program.", "slide_reference": "lecture_08-os.pdf#16"}]
